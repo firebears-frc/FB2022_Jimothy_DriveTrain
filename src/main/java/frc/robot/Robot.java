@@ -36,7 +36,7 @@ public class Robot extends TimedRobot {
 
   @Override
   public void teleopPeriodic() {
-     drivetrain.arcadeDrive(m_controller.getY()*.7, m_controller.getX()*.7);
+     drivetrain.arcadeDrive(m_controller.getY()*.6, m_controller.getX()*.6);
      Mshooter.periodic();
     }
   }
